@@ -4,19 +4,19 @@ const Banner = () => {
   return (
     <>
       <div className="bg-cmTintBlue py-32 font-poppins">
-        <div class="container flex mx-auto">
-          <div class="left">
-            <h1 className="text-white text-6xl font-bold">
+        <div class="container flex justify-between space-x-20 mx-auto">
+          <div class="max-w-screen-sm space-y-6">
+            <h1 className="text-white text-6xl font-semibold">
               Building stellar websites for early startups
             </h1>
-            <p class=" text-cmGrey font-medium">
+            <p class=" text-cmGrey font-medium ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <div class="btms">
-              <div class="btm">View our work</div>
-              <div class="link__">
-                <span>View Pricing</span>
+            <div class="flex gap-10">
+              <div class="simpleBTN text-white">View our work</div>
+              <div class="flex items-center px-6 py-4 gap-4">
+                <span className="text-white hover:text-cmyellow">View Pricing</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
@@ -33,7 +33,7 @@ const Banner = () => {
             </div>
           </div>
           <div class="right">
-            <img src="Illustration.png" alt="Illustration.png" />
+            <img src="src/assets/images/Illustration.png" alt="Illustration.png" />
           </div>
         </div>
       </div>
