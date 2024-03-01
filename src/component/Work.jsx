@@ -4,70 +4,73 @@ export default function Work() {
   return (
     <>
       <section className="bg-cmAccent py-32">
-        <div class="container flex mx-auto justify-between">
-          <div class="wText">
-            <h3 class="wText__title">How we work</h3>
-            <p class="wText__lorem">
+        <div className="container flex mx-auto justify-between">
+          <div className="font-poppins">
+            <h3 className="text-5xl text-cmDarkBlue font-semibold ">How we work</h3>
+            <p className="text-base text-cmDarkBlue/70 max-w-96 font-normal py-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
-            <a href="#" class="wText__link">
-              Get in touch with us <i class="fa-light fa-arrow-right"></i>
+            <a
+              href="#"
+              className="text-cmLightBlue font-medium text-lg hover:text-blue-800"
+            >
+              Get in touch with us <i className="fa-light  fa-arrow-right text-xl font-medium"></i>
             </a>
           </div>
-          <div class="work__boxes">
-            <div class="work__box">
-              <div class="box__icon">
+          <div className="font-poppins max-w-screen-md flex flex-wrap gap-9">
+            <div className="work__box">
+              <div className="relative text-white">
                 <img
-                  src="./images/pointer 1.png"
+                  src="src/assets/images/pointer 1.png"
                   alt="./images/pointer 1.png"
                 />
-                <p class="box__num">1</p>
+                <p className="absolute top-[10px] left-[22px]">1</p>
               </div>
-              <div class="box__title">Strategy</div>
-              <p class="wBox__lorem">
+              <div className="workBox__title ">Strategy</div>
+              <p className="max-w-80 text-base leading-7 text-cmDarkBlue/70">
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                 aliquam .
               </p>
             </div>
-            <div class="work__box">
-              <div class="box__icon">
+            <div className="work__box">
+              <div className="relative text-white">
                 <img
-                  src="./images/pointer 1.png"
+                  src="src/assets/images/pointer 1.png"
                   alt="./images/pointer 1.png"
                 />
-                <p class="box__num">1</p>
+                <p className="absolute top-[10px] left-[22px]">1</p>
               </div>
-              <div class="box__title">Strategy</div>
-              <p class="wBox__lorem">
+              <div className="workBox__title">Strategy</div>
+              <p className="max-w-80">
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                 aliquam .
               </p>
             </div>
-            <div class="work__box">
-              <div class="box__icon">
+            <div className="work__box">
+              <div className="relative text-white">
                 <img
-                  src="./images/pointer 1.png"
+                  src="src/assets/images/pointer 1.png"
                   alt="./images/pointer 1.png"
                 />
-                <p class="box__num">1</p>
+                <p className="absolute top-[10px] left-[22px]">1</p>
               </div>
-              <div class="box__title">Strategy</div>
-              <p class="wBox__lorem">
+              <div className="workBox__title">Strategy</div>
+              <p className="max-w-80">
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                 aliquam .
               </p>
             </div>
-            <div class="work__box">
-              <div class="box__icon">
+            <div className="work__box">
+              <div className="relative text-white">
                 <img
-                  src="./images/pointer 1.png"
+                  src="src/assets/images/pointer 1.png"
                   alt="./images/pointer 1.png"
                 />
-                <p class="box__num">1</p>
+                <p className="absolute top-[10px] left-[22px]">1</p>
               </div>
-              <div class="box__title">Strategy</div>
-              <p class="wBox__lorem">
+              <div className="workBox__title">Strategy</div>
+              <p className="max-w-80">
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                 aliquam .
               </p>
