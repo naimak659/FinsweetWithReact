@@ -8,3 +8,12 @@
 .workBox__title{
     @apply text-3xl font-medium text-cmDarkBlue font-poppins py-3;
 }
+.gradiantPROJECT {
+    @apply bg-gradient-to-tl from-graBluB to-graBlul;
+}
+.gradiantHover {
+    @apply absolute top-0 -left-1/2 group-hover:left-0  duration-500;
+}
+.gradiantHover1 {
+    @apply absolute group-hover:bottom-0 -bottom-full left-0 duration-500;
+}
