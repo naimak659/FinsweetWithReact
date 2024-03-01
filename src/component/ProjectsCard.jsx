@@ -62,11 +62,11 @@ export default function ProjectsCard() {
                   </div>
                 </div>
               </div>
-              <div className="dwn">
-                <img src="Card (1).png" alt="" />
-                <div className="dwn__overlay">
-                  <h3>Unisaas Website Design</h3>
-                  <div className="propics__link">
+              <div className="dwn group relative overflow-hidden">
+                <img src="src/assets/images/Card (1).png" alt="Card (1).png" />
+                <div className="dwn__overlay pt-32 px-10 space-y-3 h-full w-full gradiantHover1 gradiantPROJECT">
+                  <h3 className="text-white text-2xl font-semibold w-2/3">Unisaas Website Design</h3>
+                  <div className="text-base font-medium flex items-center gap-3 text-cmyellow">
                     <span>View Pricing</span>
                     <i className="fa-light  fa-arrow-right text-xl font-light"></i>
                   </div>
