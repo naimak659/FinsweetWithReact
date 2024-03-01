@@ -14,7 +14,8 @@ export default {
       fontFamily:{
         poppins: "'Poppins', sans-serif",
         manrope: '"Manrope", sans-serif',
-      }
+      },
+
     },
   },
   plugins: [],
